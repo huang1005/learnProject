@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/bi-*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "dev": "lerna run dev --scope bi-preview",
+    "build": "vue-cli-service build"
+  }
+}
