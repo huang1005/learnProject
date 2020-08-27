@@ -1,13 +1,13 @@
 {
-  "name": "bi-preview",
-  "version": "0.1.2",
+  "name": "bi",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "bi": "^0.0.1",
+    "bi-preview": "^0.1.2",
     "core-js": "^3.6.5",
     "lodash": "^4.17.20",
     "package1": "^0.0.0",
@@ -28,8 +28,5 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "vuePlugins": {
-    "resolveFrom": "../../"
-  }
+  ]
 }

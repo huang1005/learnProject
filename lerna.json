@@ -1,7 +1,9 @@
 {
   "private": true,
   "workspaces": [
-    "packages/bi-*"
+    "packages/bi-*",
+    "packages/bi",
+    "packages/package-*"
   ],
   "version": "independent",
   "npmClient": "yarn",

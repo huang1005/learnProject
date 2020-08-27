@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/bi-*"
+    "packages/bi-*",
+    "packages/bi",
+    "packages/package-*"
   ],
   "devDependencies": {
     "lerna": "^3.22.1"
